@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cloudgate": {
+      "type": "http",
+      "url": "https://api.cloudgate.dev/mcp/workflow"
+    }
+  }
+}

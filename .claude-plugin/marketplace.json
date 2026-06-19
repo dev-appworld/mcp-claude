@@ -1,0 +1,18 @@
+{
+  "name": "cloudgate-app-templates",
+  "owner": {
+    "name": "Cloudgate Dev LLC",
+    "email": "dev@cloudgate.dev"
+  },
+  "metadata": {
+    "description": "Cloudgate plugins for Claude — build and manage Cloudgate workflow-APIs.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cloudgate-builder",
+      "source": "./plugins/cloudgate-builder",
+      "description": "Build and manage Cloudgate workflow-APIs (projects, endpoints, workflows) from Claude via the Cloudgate MCP, authenticated with OAuth."
+    }
+  ]
+}
