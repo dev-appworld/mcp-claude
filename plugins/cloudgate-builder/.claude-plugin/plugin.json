@@ -1,7 +1,7 @@
 {
   "name": "cloudgate-builder",
-  "version": "1.1.0",
-  "description": "Build and manage Cloudgate workflow-APIs from Claude. Connects to the Cloudgate MCP (api.cloudgate.dev) via OAuth and adds the cloudgate-build skill.",
+  "version": "1.2.0",
+  "description": "Build and manage Cloudgate workflow-APIs from Claude. Connects to the Cloudgate MCP (api.cloudgate.dev) over OAuth via the mcp-remote bridge, and adds the cloudgate-build skill.",
   "author": {
     "name": "Cloudgate Dev LLC",
     "email": "dev@cloudgate.dev"

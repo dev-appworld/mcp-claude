@@ -1,8 +1,15 @@
 {
   "mcpServers": {
     "cloudgate": {
-      "type": "http",
-      "url": "https://api.cloudgate.dev/mcp/workflow"
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.cloudgate.dev/mcp/workflow",
+        "33418",
+        "--static-oauth-client-info",
+        "{\"client_id\":\"cloudgate-mcp\"}"
+      ]
     }
   }
 }
